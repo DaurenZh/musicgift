@@ -318,21 +318,18 @@ input:focus-visible {
 @media (max-width: 700px) {
   .gallery-screen { padding-inline: 18px; }
   .memory-detail {
+    display: block;
     min-height: auto;
-    align-items: flex-start;
-    padding:
-      max(32px, calc(env(safe-area-inset-top) + 24px))
-      18px
-      max(56px, calc(env(safe-area-inset-bottom) + 38px));
+    padding: 72px 18px 120px;
   }
-  .back-button { margin-bottom: 34px; }
+  .back-button { margin-bottom: 48px; }
   .memory-header { margin-top: 0; }
   .memory-layout { grid-template-columns: 1fr; gap: 30px; }
   .polaroid { width: min(62vw, 230px); }
   .photo-note { display: none; }
   .song-heading { text-align: center; }
   .lyrics-container { height: 220px; padding-block: 58px; }
-  .memory-footer { margin-top: 46px; }
+  .memory-footer { margin-top: 64px; }
 }
 
 @media (max-width: 420px) {
