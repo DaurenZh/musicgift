@@ -318,9 +318,12 @@ input:focus-visible {
 @media (max-width: 700px) {
   .gallery-screen { padding-inline: 18px; }
   .memory-detail {
+    min-height: auto;
     align-items: flex-start;
     padding: 24px 18px 38px;
   }
+  .back-button { margin-bottom: 34px; }
+  .memory-header { margin-top: 0; }
   .memory-layout { grid-template-columns: 1fr; gap: 30px; }
   .polaroid { width: min(62vw, 230px); }
   .photo-note { display: none; }
