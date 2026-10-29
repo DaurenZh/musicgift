@@ -214,14 +214,12 @@ input:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  min-height: 44px;
-  padding: 10px 16px;
-  border: 1px solid rgb(255 255 255 / 28%);
-  border-radius: 30px;
-  background: rgb(255 255 255 / 10%);
+  min-height: 32px;
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
   color: white;
   cursor: pointer;
-  backdrop-filter: blur(12px);
 }
 
 .back-button span:first-child { font-size: 20px; }
