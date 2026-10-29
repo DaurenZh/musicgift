@@ -320,7 +320,10 @@ input:focus-visible {
   .memory-detail {
     min-height: auto;
     align-items: flex-start;
-    padding: 24px 18px 38px;
+    padding:
+      max(32px, calc(env(safe-area-inset-top) + 24px))
+      18px
+      max(56px, calc(env(safe-area-inset-bottom) + 38px));
   }
   .back-button { margin-bottom: 34px; }
   .memory-header { margin-top: 0; }
@@ -329,6 +332,7 @@ input:focus-visible {
   .photo-note { display: none; }
   .song-heading { text-align: center; }
   .lyrics-container { height: 220px; padding-block: 58px; }
+  .memory-footer { margin-top: 46px; }
 }
 
 @media (max-width: 420px) {
@@ -339,7 +343,10 @@ input:focus-visible {
   .photo-caption { padding: 12px 3px 15px; font-size: 13px; }
   .photo-overlay { display: none; }
   .memory-message { font-size: 23px; }
-  .memory-detail { padding-inline: 16px; }
+  .memory-detail {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
   .progress-row { gap: 7px; font-size: 10px; }
 }
 
