@@ -52,7 +52,7 @@ const memories = ref([
     id: 2,
     caption: 'Partners in crime',
     photo: '/photos/gta.png',
-    message: 'Ты у меня такая роскошная и опасная, реально "Fashion Killa" будто бы Рианна.',
+    message: 'Ты у меня такая роскошная и опасная, реально "Fashion Killa"... будто Рианна, я твой прити мазафакер😎.',
     songTitle: 'Fashion Killa',
     artist: 'A$AP Rocky',
     audio: '/music/A_AP-Rocky-Fashion-Killa-_Official-Audio_.mp3',
@@ -132,7 +132,7 @@ const memories = ref([
     message: 'Ты для меня воистину сияешь ярче солнца, ты моя звезда...',
     songTitle: 'Я твой номер один',
     artist: 'Дима Билан',
-    audio: '/music/Я-твой-номер-один.mp3',
+    audio: '/music/dima-bilan-number-one.mp3',
     lyrics: [
       { time: 18, text: 'Взгляд твой как власть, та, что разжигает страсть' },
       { time: 22.4, text: 'Чья ты bad girl? Кто тебя сюда привёл?' },

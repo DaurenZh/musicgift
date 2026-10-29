@@ -184,8 +184,8 @@ input:focus-visible {
   background-image: var(--memory-background);
   background-position: center;
   background-size: cover;
-  filter: blur(18px);
-  opacity: 0.3;
+  filter: blur(10px);
+  opacity: 0.55;
   content: '';
 }
 
@@ -193,7 +193,7 @@ input:focus-visible {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(135deg, rgb(36 19 48 / 90%), rgb(26 19 43 / 95%));
+  background: linear-gradient(135deg, rgb(36 19 48 / 48%), rgb(26 19 43 / 62%));
   content: '';
 }
 
