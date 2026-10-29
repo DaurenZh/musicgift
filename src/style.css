@@ -209,6 +209,8 @@ input:focus-visible {
 }
 
 .back-button {
+  position: relative;
+  z-index: 2;
   display: inline-flex;
   align-items: center;
   gap: 9px;
@@ -322,8 +324,9 @@ input:focus-visible {
     min-height: auto;
     padding: 72px 18px 120px;
   }
-  .back-button { margin-bottom: 48px; }
-  .memory-header { margin-top: 0; }
+  .memory-detail-content { display: flex; flex-direction: column; }
+  .back-button { align-self: flex-start; margin-bottom: 48px; }
+  .memory-header { margin: 0 auto 38px; }
   .memory-layout { grid-template-columns: 1fr; gap: 30px; }
   .polaroid { width: min(62vw, 230px); }
   .photo-note { display: none; }
