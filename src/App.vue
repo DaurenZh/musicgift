@@ -217,6 +217,7 @@ function openMemory(memory) {
   isPlaying.value = false
 
   nextTick(async () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
     if (!audioPlayer.value) return
     try {
       await audioPlayer.value.play()
@@ -233,6 +234,7 @@ function goBack() {
   currentMemory.value = null
   currentTime.value = 0
   duration.value = 0
+  window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
 }
 
 async function togglePlayback() {
