@@ -52,7 +52,7 @@ const memories = ref([
     id: 2,
     caption: 'Partners in crime',
     photo: '/photos/gta.png',
-    message: 'Ты у меня такая роскошная и опасная, реально "Fashion Killa"... будто Рианна, я твой прити мазафакер😎.',
+    message: 'Ты у меня такая роскошная и опасная, реально "Fashion Killa"... будто Рианна, а я твой прити мазафакер😎.',
     songTitle: 'Fashion Killa',
     artist: 'A$AP Rocky',
     audio: '/music/A_AP-Rocky-Fashion-Killa-_Official-Audio_.mp3',
